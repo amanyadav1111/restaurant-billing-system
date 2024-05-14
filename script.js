@@ -123,9 +123,9 @@ function printMenuSlip() {
     const printWindow = window.open('', '_blank');
     printWindow.document.write('<html><head><title>Aman Restaurent</title></head><body>');
     printWindow.document.write('<h1 id="centered-content">Aman Restaurant</h1>');
-    printWindow.document.write('<pre>78-A Naubasta Kanpur Nagar</pre>');
-    printWindow.document.write('<pre>208021</pre>');
-    printWindow.document.write('<pre>7905481432</pre>');    
+    printWindow.document.write('<pre>MIG 54 Sector PD Nagar Unnao</pre>');
+    printWindow.document.write('<pre>209801</pre>');
+    printWindow.document.write('<pre>9889838272</pre>');    
     printWindow.document.write(menuSlipContent);
     printWindow.document.write('<p>Total Item Amount: $' + totalItemAmount + '</p>');
     printWindow.document.write('</body></html>');
